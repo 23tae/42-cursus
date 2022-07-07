@@ -6,7 +6,7 @@
 #    By: taehooki <taehooki@student.42seoul.kr>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 00:23:27 by taehooki          #+#    #+#              #
-#    Updated: 2022/05/09 15:34:12 by taehooki         ###   ########.fr        #
+#    Updated: 2022/07/07 22:42:04 by taehooki         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -83,6 +83,8 @@ clean :
 fclean : clean
 	rm -f $(NAME)
 
-re : fclean all
+re :
+	make fclean
+	make all
 
 .PHONY		:	all clean fclean re bonus

@@ -6,7 +6,7 @@
 #    By: taehooki <taehooki@student.42seoul.kr>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/09 21:00:19 by taehooki          #+#    #+#              #
-#    Updated: 2022/06/21 11:05:28 by taehooki         ###   ########.fr        #
+#    Updated: 2022/07/07 22:42:37 by taehooki         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,6 +43,8 @@ fclean: clean
 		$(MAKE) fclean -C ./libft
 		$(RM) $(NAME)
 
-re: fclean all
+re:
+	$(MAKE) fclean
+	$(MAKE) all
 
-.PHONY: all, bonus, clean, fclean, re
+.PHONY: all, clean, fclean, re
