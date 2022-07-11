@@ -58,4 +58,5 @@ Mkfile.old
 dkms.conf
 
 # Etc
-*test*
+*tester*
+*test_main.c
