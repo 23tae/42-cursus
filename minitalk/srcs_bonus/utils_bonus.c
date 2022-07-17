@@ -1,0 +1,26 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   utils_bonus.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: taehooki <taehooki@student.42seoul.kr>     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/07/17 12:29:22 by taehooki          #+#    #+#             */
+/*   Updated: 2022/07/17 12:29:27 by taehooki         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "minitalk_bonus.h"
+
+void	ft_kill(pid_t pid, int signo)
+{
+	if (kill(pid, signo))
+		ft_error("\nSignal sending : Failure.");
+}
+
+void	ft_error(char *str)
+{
+	ft_putstr_color_fd(COLOR_RED, str, 1);
+	write(1, "\n", 1);
+	exit(1);
+}
