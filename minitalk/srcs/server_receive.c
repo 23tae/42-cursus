@@ -6,7 +6,7 @@
 /*   By: taehooki <taehooki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/14 11:02:39 by taehooki          #+#    #+#             */
-/*   Updated: 2022/07/18 22:18:40 by taehooki         ###   ########.fr       */
+/*   Updated: 2022/07/18 22:54:44 by taehooki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,6 @@ void	ft_receive_signal(int signo, siginfo_t *info, void *context)
 		ft_putstr_color_fd(COLOR_BLUE, "\nReceiving : Success\n", 1);
 		sigaction(SIGUSR1, &g_data.action_handshake, NULL);
 		sigaction(SIGUSR2, &g_data.action_handshake, NULL);
-		g_data.pid = 0;
 		g_data.byte = 0;
 	}
 	ft_kill(g_data.pid, SIGUSR1 + is_end);
