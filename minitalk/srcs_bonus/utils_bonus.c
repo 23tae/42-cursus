@@ -6,7 +6,7 @@
 /*   By: taehooki <taehooki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/17 12:29:22 by taehooki          #+#    #+#             */
-/*   Updated: 2022/07/18 22:48:33 by taehooki         ###   ########.fr       */
+/*   Updated: 2022/07/19 21:55:40 by taehooki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_kill(pid_t pid, int signo)
 {
 	usleep(10);
 	if (kill(pid, signo))
-		ft_error("\nConnection : Failure.");
+		ft_error("\nSignal sending : Failure");
 }
 
 void	ft_error(char *str)
