@@ -15,7 +15,7 @@ Small data exchange program using UNIX signals between server and client.
 8. `make fclean` : delete executable files
 
 ### etc
-- Functions between srcs/ and srcs_bonus/ is exactly the same. To make bonus directory, enter the following commands.
+- Functions between srcs/ and srcs_bonus/ are exactly the same. To make bonus directory, enter the following commands.
 - enter `sh bonus.sh` : make bonus directory
 - `make bonus` : make bonus executable files
 
