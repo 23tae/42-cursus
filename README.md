@@ -15,4 +15,4 @@
 |05|02|**minitalk**|2022-07-17|[![taehooki's 42 minitalk Score](https://badge42.vercel.app/api/v2/cl483snt4000609l4nj83utaq/project/2670581)](https://github.com/JaeSeoKim/badge42)|
 |06|02|**push_swap**|2022-08-10|[![taehooki's 42 push_swap Score](https://badge42.vercel.app/api/v2/cl483snt4000609l4nj83utaq/project/2716111)](https://github.com/JaeSeoKim/badge42)|
 |07|02|**so_long**|2022-08-22|[![taehooki's 42 so_long Score](https://badge42.vercel.app/api/v2/cl483snt4000609l4nj83utaq/project/2736884)](https://github.com/JaeSeoKim/badge42)|
-|08|03|**Philosophers**|2022-11-13|[[![taehooki's 42 Philosophers Score](https://badge42.vercel.app/api/v2/cl483snt4000609l4nj83utaq/project/2811868)](https://github.com/JaeSeoKim/badge42)|
+|08|03|**Philosophers**|2022-11-13|[![taehooki's 42 Philosophers Score](https://badge42.vercel.app/api/v2/cl483snt4000609l4nj83utaq/project/2811868)](https://github.com/JaeSeoKim/badge42)|
