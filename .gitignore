@@ -1,0 +1,6 @@
+# Configuration files
+.vscode
+*.json
+.DS_Store
+.cache_exists
+*.dSYM
