@@ -18,3 +18,4 @@
 |08|03|[Philosophers](https://github.com/23tae/42-philosophers)|2022-11-12|[![taehooki's 42 Philosophers Score](https://badge42.vercel.app/api/v2/cl483snt4000609l4nj83utaq/project/2811868)](https://github.com/JaeSeoKim/badge42)|
 |09|03|[minishell](https://github.com/23tae/42-minishell)|2022-12-28|[![taehooki's 42 minishell Score](https://badge42.vercel.app/api/v2/cl483snt4000609l4nj83utaq/project/2880785)](https://github.com/JaeSeoKim/badge42)|
 |10|04|[NetPractice](https://github.com/23tae/42-netpractice)|2023-01-17|[![taehooki's 42 NetPractice Score](https://badge42.vercel.app/api/v2/cl483snt4000609l4nj83utaq/project/2929804)](https://github.com/JaeSeoKim/badge42)|
+|11|04|[miniRT](https://github.com/23tae/42-minirt)|2023-02-02|[![taehooki's 42 miniRT Score](https://badge42.vercel.app/api/v2/cl483snt4000609l4nj83utaq/project/2956546)](https://github.com/JaeSeoKim/badge42)|
