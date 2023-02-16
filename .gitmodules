@@ -34,3 +34,6 @@
 [submodule "minirt"]
 	path = minirt
 	url = https://github.com/23tae/42-minirt.git
+[submodule "cpp-module"]
+	path = cpp-module
+	url = https://github.com/23tae/42-cpp-module.git
