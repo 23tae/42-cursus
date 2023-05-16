@@ -40,3 +40,6 @@
 [submodule "inception"]
 	path = inception
 	url = https://github.com/23tae/42-inception.git
+[submodule "webserv"]
+	path = webserv
+	url = https://github.com/23tae/42-webserv.git
